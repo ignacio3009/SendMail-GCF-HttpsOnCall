@@ -18,3 +18,13 @@ So, this app let you send mails from `contactmail` to `dest` using the message o
 
 ## Google Cloud Functions
 After select a folder working, run `firebase login` and `firebase init`  commands, etc, you have to install nodemail cors using commmands `npm install nodemailer cors`. 
+
+After, you have to add the function in:
+
++ index.js
+
+to the Google Cloud Function, copying the content to the file of the same name in the folder of your firebase project. 
+
+## Contact Form
+This is the most extremely simple contact form, just for learning purpose. It is composed of `contact.html` and `contact.js` files. IT IS IMPORTANT! that you have to add your api credentials of your Firebase Project in the contact.html form. You can find more information about this on https://firebase.google.com/docs/web/setup?hl=es and https://firebase.google.com/docs/web/setup?hl=es#add-sdks-initialize. 
+
