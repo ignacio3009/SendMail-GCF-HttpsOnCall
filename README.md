@@ -8,7 +8,7 @@ On this example, I have made a contact form using html and javascript language. 
 First of all, you need to upload the function in the file `index.js` to the Google Cloud Function, using yours parameters:
 
 + contactmail: contactformexample@gmail.com (create a google account for this purpose)
-+ pass: passwordofcontactform@gmail.com
++ pass: passwordofcontactform
 + dest: destinationofmails@gmail.com (your personal mail)
 
 Also, you have to give the access for thirdy-party sites and app of the `contactmail` mail. You can information about this on https://support.google.com/accounts/answer/3466521?hl=en
