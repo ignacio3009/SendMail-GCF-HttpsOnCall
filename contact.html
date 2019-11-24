@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Form</title>
+</head>
+<h1>Contact Form</h1>
+
+<label>Name</label>
+<input type="text" id="NAME">
+
+<label>Mail</label>
+<input type="text" id="NAME">
+
+<label>Message</label>
+<input type="text" id="MESSAGE">
+
+<button onclick="sendMailTo()">Send Mail</button>
+<body>
+
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-functions.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: YOUR_API_CREDENTIALS,
+    authDomain: YOUR_API_CREDENTIALS,
+    databaseURL: YOUR_API_CREDENTIALS,
+    projectId: YOUR_API_CREDENTIALS,
+    storageBucket: YOUR_API_CREDENTIALS,
+    messagingSenderId: YOUR_API_CREDENTIALS,
+    appId: YOUR_API_CREDENTIALS,
+    measurementId: YOUR_API_CREDENTIALS
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  var functions = firebase.functions();
+</script>
+
+
+<script src="contact.js"></script> 
+
+</body>
+</html>
