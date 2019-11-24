@@ -1,5 +1,6 @@
 # SendMail-GCF-HttpsOnCall
-SendMail using a google account and Google Cloud Function for a Contact Form in the server side
+## Introduction
+SendMail using a google account and Google Cloud Function for a Contact Form in the server side using nodemailer
 
 On this topic, a function of Google Cloud Function service in Firebase to send mails from a google account to another google account is shown. 
 The function is `Https.OnCall`, with which you can make calls for a Https request using a client app, like a webpage. 
@@ -14,3 +15,6 @@ First of all, you need to upload the function in the file `index.js` to the Goog
 Also, you have to give the access for thirdy-party sites and app of the `contactmail` mail. You can information about this on https://support.google.com/accounts/answer/3466521?hl=en
 
 So, this app let you send mails from `contactmail` to `dest` using the message of the contact form. 
+
+## Google Cloud Functions
+After select a folder working, run `firebase login` and `firebase init`  commands, etc, you have to install nodemail cors using commmands `npm install nodemailer cors`. 
